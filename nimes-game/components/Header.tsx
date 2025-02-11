@@ -1,4 +1,3 @@
-import { useBreakpointValue } from "@chakra-ui/react";
 import { Flex, HStack, Button, Box, Link, Image, Text } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import matchstick from '../public/matchstick.png';
