@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
 import { useState, useEffect } from 'react';
 import { Heading } from "@chakra-ui/layout";
-import { Box, Center, Flex, Image } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
 import  matches from '../public/matches_picture.png';
 
 const Rules: NextPage = () => {
-  const [isClient, setIsClient] = useState(false);
+  const [, setIsClient] = useState(false);
 
   useEffect(() => {
     setIsClient(true);

@@ -1,11 +1,6 @@
 import type { NextPage } from 'next';
 import Marquee from "react-fast-marquee";
-import { Box, Flex, VStack, Text, Image } from '@chakra-ui/react';
-import  matchstick from '../public/matchstick.png';
-
-
-
-
+import { Box, Flex, VStack, Text } from '@chakra-ui/react';
 
 const Home: NextPage = () => {
   

@@ -5,7 +5,6 @@ import matchstick from '../public/matchstick.png';
 
 export default function Header() {
     const [hoveredLink, setHoveredLink] = useState<string | null>(null);
-    const isSmallScreen = useBreakpointValue({ base: true, md: false });
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {

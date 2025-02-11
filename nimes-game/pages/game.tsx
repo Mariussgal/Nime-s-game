@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Box, Button, Input, Text, VStack } from "@chakra-ui/react";
+import { Button, Input, Text, VStack } from "@chakra-ui/react";
 
 const Game = () => {
   const [matches, setMatches] = useState<number | null>(null);
@@ -7,14 +7,6 @@ const Game = () => {
   const [gameStatus, setGameStatus] = useState<string | null>("");
   const [inputMatches, setInputMatches] = useState<string>(""); 
 
-
-  const startGame = () => {
-    if (!matches || matches < 1) {
-      setGameStatus("Enter a valid number of matches.");
-      return;
-    }
-    setGameStatus(`The game starts with ${matches} matches.`);
-  };
 
   const playTurn = async () => {
     if (!matches || matches < 1) {
