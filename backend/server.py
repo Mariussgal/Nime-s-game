@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from gamescript import nim_ai  
+from backend.gamescript import nim_ai  
 
 app = FastAPI()
 
