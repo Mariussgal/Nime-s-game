@@ -6,7 +6,7 @@ This project is an implementation of the **Nim game**, where an artificial intel
 
 The project was designed as part of an academic assignment focusing on **game theory and algorithmic optimization**. The objective was to implement:
 - A **functional game engine** that follows the standard Nim game rules.
-- A **winning AI strategy** capable of making optimal moves.
+- A **winning AI strategy**.
 - A **web interface** to allow users to play against the AI.
 
 ## 🌍 App Overview
@@ -14,7 +14,7 @@ The project was designed as part of an academic assignment focusing on **game th
 
 - **🏠 Home (`/`)** – Introduction and access to the game.
 - **🕹️ Game (`/game`)** – The main game interface where users play against the AI.
-- **📖 Rules (`/rules`)** – Explanation of the Nim game rules.
+- **📖 Rules (`/rules`)** – Explanation of the Nim game rules & historical context.
 
 ### 🏆 Features:
 - **Start game** with a number of matches of your choice.
