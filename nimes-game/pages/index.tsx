@@ -26,7 +26,6 @@ const Home: NextPage = () => {
         It is a strategic game where you pick between 1 to 3 matches each turn. Compete against the computer and avoid picking the last match to win!
 		</Text>
 		<Text fontSize="sm" fontWeight="semibold" letterSpacing="wide" mt={6} display={["none", "block"]}>
-		  MARIUS 
 		</Text>
 		</Box>
 		
@@ -63,10 +62,7 @@ const Home: NextPage = () => {
 			MATCHSTICK GAME &copy; {new Date().getFullYear()}
 		  </Text>
 		  <Text mr={5} transition="all .15s linear">
-			
-		  </Text>
-		  <Text mr={5} transition="all .15s linear">
-			
+			February {new Date().getFullYear()}
 		  </Text>
 		</Marquee>
 		</Box>
