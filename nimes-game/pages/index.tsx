@@ -1,9 +1,12 @@
 import type { NextPage } from 'next';
 import Marquee from "react-fast-marquee";
 import { Box, Flex, VStack, Text } from '@chakra-ui/react';
+import { useEffect } from 'react';
 
 const Home: NextPage = () => {
-  
+	useEffect(() => {
+		console.log("Page d'accueil chargée");
+	  }, []);
   
     return (
 	<Flex flexDirection="column" height="90vh" width="100%" color="#DCD7C9">
