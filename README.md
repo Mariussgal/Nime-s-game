@@ -69,6 +69,10 @@ cd nimes-game-website/backend
 pip install -r requirements.txt
 python -m uvicorn server:app --reload
 ```
+---
+
+![Home page](https://github.com/user-attachments/assets/8d6dae9a-06f9-43d7-8605-923f39eb7eed)
+
 
 
 
