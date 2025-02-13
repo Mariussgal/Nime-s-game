@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import { useState, useEffect } from 'react';
 import { Heading } from "@chakra-ui/layout";
 import { Box, Flex, Image } from '@chakra-ui/react';
-import  matches from '../public/matches_picture.png';
+import matches from '../public/matches_picture.png';
 
 const Rules: NextPage = () => {
   const [, setIsClient] = useState(false);
@@ -38,26 +38,24 @@ const Rules: NextPage = () => {
           <Flex flexDirection="column" gap={4}>
             <Flex flexDirection="column">
               <Box paddingLeft={4} textAlign="center">
-                This game consists of placing 13 matches in a single line or pile. In turn, the two players must take between 1 and 3 matches from those placed on the table. Whoever strikes the last match loses.<br/> Furthermore, we added the possibility for you to choose with how many matches you want to start to play.
+                This game consists of placing 13 matches in a single line or pile. In turn, the two players must take between 1 and 3 matches from those placed on the table. Whoever strikes the last match loses.<br /> Furthermore, we added the possibility for you to choose with how many matches you want to start to play.
               </Box>
             </Flex>
           </Flex>
         </Flex>
       </Flex>
+
       <Flex marginTop={8} flexDirection={{ base: "column", md: "row" }} gap={8} alignItems="stretch">
         <Flex flexDirection="row" flex="1" p={4} justifyContent="center">
-
-        <Image
-        	src={matches.src}
-        	alt='matches_picture'
-          objectFit="cover"
-     		  width="110vh" 
-        	height="auto" 
-        	sx={{ filter: 'brightness(105%)' }}
-      		/>
-        
-        
-        </Flex>  
+          <Image
+            src={matches.src}
+            alt='matches_picture'
+            objectFit="cover"
+            width="110vh"
+            height="auto"
+            sx={{ filter: 'brightness(105%)' }}
+          />
+        </Flex>
       </Flex>
     </Flex>
   );
