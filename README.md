@@ -72,6 +72,10 @@ python -m uvicorn server:app --reload
 ---
 
 ![Home page](https://github.com/user-attachments/assets/8d6dae9a-06f9-43d7-8605-923f39eb7eed)
+![Rules page](https://github.com/user-attachments/assets/94466b73-b768-4d12-a35c-9a8bf701cf49)
+![Game page](https://github.com/user-attachments/assets/4c92d508-9772-4e8c-aa68-b0eb5bff7777)
+
+
 
 
 
