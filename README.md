@@ -46,3 +46,31 @@ If the player starts with a **number of matches that is not already in the form 
 
 ---
 
+## 🚀 Deployment Instructions
+
+### **1️⃣ Install Dependencies**
+Before running the project, you need to install the necessary dependencies for both the frontend and backend.
+
+#### **Frontend**
+
+First, run the development server:
+
+```bash
+cd nimes-game-website/nimes-game
+pnpm install
+pnpm run dev 
+```
+Open http://localhost:3000 with your browser to see the result.
+
+#### **Backend**
+
+```bash
+cd nimes-game-website/backend
+pip install -r requirements.txt
+python -m uvicorn server:app --reload
+```
+
+
+
+
+
