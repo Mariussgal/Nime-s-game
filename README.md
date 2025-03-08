@@ -76,8 +76,8 @@ python -m uvicorn server:app --reload
 ![Game page](https://github.com/user-attachments/assets/4c92d508-9772-4e8c-aa68-b0eb5bff7777)
 
 
-
-
+## Contribution
+Contributions to this project are welcome. Please feel free to submit bug fixes, improvements, or new features via pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 
 
